@@ -18,6 +18,7 @@
   font-size: 32px;
   font-weight: 800;
   color: rgb(13, 19, 33);
+  text-transform: capitalize;
 }
 .common-para {
   color: rgb(13, 19, 33);
@@ -154,4 +155,49 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+/* My Goal start here */
+#goal-section {
+  margin-top: 110px;
+}
+.goal-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 50px;
+}
+.goal-target-single-box {
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  padding: 35px;
+}
+.goal-technology-img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+}
+.goal-technology-img img {
+  width: 100%;
+  height: 100%;
+}
+.goal-target-single-box h5 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0d1321;
+}
+.goal-target-single-box .common-para {
+  line-height: 28px;
+  margin-top: 10px;
+}
+.goal-target-single-box a {
+  color: #0d1321;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+#bg-css {
+  background: #004ce80d;
 }
