@@ -201,3 +201,50 @@
 #bg-css {
   background: #004ce80d;
 }
+
+/* Newsletter start here */
+#newsletter {
+  margin: 45px;
+}
+
+.newsletter-wrap {
+  background: url("../assets/images/handshake.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.newsletter-wrap .section-header .common-section-title {
+  color: #fff;
+}
+.newsletter-wrap .section-header .common-para {
+  color: rgb(255 255 255 / 66%);
+}
+.newsletter-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+.newsletter-feedback .input-type-box {
+  width: 540px;
+}
+.newsletter-feedback input {
+  border: none;
+  padding: 18px 28px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  background: #fff;
+}
+input.news-btn {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 20px;
+}
